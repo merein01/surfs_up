@@ -1,1 +1,10 @@
-# surfs_up
+# Surfs Up
+# Overview
+For this project, we completed an analysis for the Surfs Up start up surf and ice cream shop. We used Python with Pandas, SQLAlchemy, and SQLite modules to query the SQLite data file, along with numpy and the datetime modules. This analysis was to support the funding of this start up shop based on weather patterns from several nearby weather stations. Statistical analysis was also completed for different months, time of year, and using specific stations.
+
+# Results
+Seperate DataFrames were created by querying the SQLite file using the SQLAlchemy module to pull temperature data fro the months of June and December. We used the .describe() function to help understand the different statistics of the weather for those two particular months. The mean temperature was similar. with June being slightly higher. December;s average temperature is 71 degrees, where June's average temperature was 74.9 degrees. The minimum temperature of 56 degrees is significantly colder in December than in June, which is 64 degrees. Max temperature is also similar with December at 83 degrees and June at 85 degrees. These figures show how egularly higher temperatures appear in June vs December with the 75% quartile only being at 74 degrees where as in June the 50% quartile is higher than that at 75 degrees.
+
+# Summary 
+Because June is during the summer time with warmer temperatures, this month would likely be a much more profitable month for the surf and ice cream shop.
+With 50% of days having 75 degree temperatures or higher in June, December still shows some profitability in terms of fair temperatures with 50% of the data being at 71 degrees or higher. While still 75% of the days are below 74 degrees in December, there are still many warm days. All in all the temperature data shows promise year round. To better understand the temperature and weathers effect on the business, I would recommend querying the data for the average temperature across each month and comparing the data. There could very well be months between June and December where profits could slip due to temperature.
